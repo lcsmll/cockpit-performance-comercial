@@ -1,4 +1,4 @@
-# Cockpit de performance comercial
+[README.md](https://github.com/user-attachments/files/33448646/README.md)[Uploading README.# Cockpit de performance comercial
 
 Projeto de portfólio em Inteligência Comercial: um painel que acompanha meta, realizado, forecast, funil e riscos de uma operação que vende por parceiros.
 
@@ -50,7 +50,7 @@ data/*.csv ───────────────────────
 * O mesmo motor roda no Node. `exportar_kpis_app.js` executa 7 cenários de filtro e grava os resultados.
 * `validar_kpis.py` recalcula os mesmos indicadores com pandas, de forma independente, compara número a número e roda testes de integridade da base.
 
-* `testar_interface.py` abre o painel num navegador headless e confere os KPIs exibidos e os dados desenhados no gráfico mensal contra o recálculo Python.
+* `testar_interface.py` abre o painel num navegador headless, confere os KPIs exibidos e os dados desenhados no gráfico mensal contra o recálculo Python, troca período, parceiro e etapa pela interface com o mouse sobre os gráficos e falha se houver qualquer erro de JavaScript.
 
 Última execução: **47 de 47 testes OK, 1.163 valores comparados entre motor e recálculo e 7 cenários conferidos na tela renderizada, sem divergência.** Relatório em [`validacao/relatorio_validacao.md`](validacao/relatorio_validacao.md).
 
@@ -157,3 +157,4 @@ HTML, CSS e JavaScript sem framework; Chart.js para os gráficos; Python (pandas
 ---
 
 Projeto demonstrativo. Todos os dados são fictícios.
+md…]()
