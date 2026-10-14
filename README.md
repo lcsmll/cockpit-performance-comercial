@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33448646/README.md)[Uploading README.# Cockpit de performance comercial
-
 Projeto de portfólio em Inteligência Comercial: um painel que acompanha meta, realizado, forecast, funil e riscos de uma operação que vende por parceiros.
 
 > **Dados 100% fictícios.** A empresa "Vellora Energia" e seus 20 parceiros não existem. Toda a base foi gerada por simulação (`data/gerar_dados.py`). Nenhum dado, nome, logotipo ou layout de empresa real foi usado.
