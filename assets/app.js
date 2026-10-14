@@ -155,8 +155,13 @@
     Chart.defaults.font.size = 12;
     Chart.defaults.color = css("--muted");
     Chart.defaults.borderColor = css("--line");
-    Chart.defaults.animation = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? false : { duration: 250 };
+    // Altera só a duração. Substituir o objeto Chart.defaults.animation inteiro apaga as chaves (type, easing, fn…)
+    // que o Chart.js usa como lista de opções a copiar em cada animação; sem "type: color", animar uma cor
+    // (ex.: hover da barra) não encontra interpolador e dispara "this._fn is not a function".
+    Chart.defaults.animation.duration = 250;
   }
+  // Movimento reduzido: desliga animações por gráfico, opção documentada do Chart.js, sem mexer nos defaults.
+  const semAnimacao = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   function hachura(cor, fundo) {
     const c = document.createElement("canvas"); c.width = c.height = 8;
     const x = c.getContext("2d");
@@ -166,6 +171,7 @@
     return x.createPattern(c, "repeat");
   }
   function trocar(id, cfg) {
+    if (semAnimacao()) cfg.options = Object.assign({}, cfg.options, { animation: false });
     if (graficos[id]) graficos[id].destroy();
     graficos[id] = new Chart($(id), cfg);
   }
