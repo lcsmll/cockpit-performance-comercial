@@ -1,0 +1,8 @@
+parametro,valor
+empresa,Vellora Energia (empresa fictícia)
+data_corte,2026-09-30
+primeiro_mes_fechado,2024-10
+ultimo_mes_fechado,2026-09
+primeiro_mes_futuro,2026-10
+ultimo_mes_futuro,2026-12
+semente_aleatoria,37

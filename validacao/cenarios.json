@@ -1,0 +1,9 @@
+[
+ {"nome": "Padrão: últimos 12 meses, todos os parceiros", "filtros": {"de": "2025-10", "ate": "2026-09", "parceiro": "Todos", "etapa": "Todas"}},
+ {"nome": "Histórico completo (24 meses)", "filtros": {"de": "2024-10", "ate": "2026-09", "parceiro": "Todos", "etapa": "Todas"}},
+ {"nome": "Último trimestre", "filtros": {"de": "2026-07", "ate": "2026-09", "parceiro": "Todos", "etapa": "Todas"}},
+ {"nome": "Parceiro Ingá (P07), 12 meses", "filtros": {"de": "2025-10", "ate": "2026-09", "parceiro": "P07", "etapa": "Todas"}},
+ {"nome": "Parceiro Oiti (P13), etapa Negociação", "filtros": {"de": "2025-10", "ate": "2026-09", "parceiro": "P13", "etapa": "Negociação"}},
+ {"nome": "Parceiro Ypê (P20), credenciado no período", "filtros": {"de": "2025-01", "ate": "2026-09", "parceiro": "P20", "etapa": "Todas"}},
+ {"nome": "Etapa Proposta, 2025", "filtros": {"de": "2025-01", "ate": "2025-12", "parceiro": "Todos", "etapa": "Proposta"}}
+]

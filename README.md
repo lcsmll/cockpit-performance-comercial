@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33443044/README.md)
 # Cockpit de performance comercial
 
 Projeto de portfólio em Inteligência Comercial: um painel que acompanha meta, realizado, forecast, funil e riscos de uma operação que vende por parceiros.

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Cockpit de performance comercial — Vellora Energia (fictícia)</title>
+  <meta name="description" content="Projeto demonstrativo de portfólio: cockpit de inteligência comercial com dados 100% fictícios de uma empresa de geração distribuída que vende por parceiros.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <div class="topo-inner">
+      <div class="marca">
+        <h1>Cockpit de performance comercial</h1>
+        <p class="sub">Vellora Energia, uma empresa <strong>fictícia</strong> de geração distribuída que vende por parceiros. Todos os nomes e números são sintéticos; o projeto é demonstrativo.</p>
+      </div>
+      <p class="corte" id="dataCorte">Dados até —</p>
+    </div>
+  </header>
+
+  <div class="filtros" role="region" aria-label="Filtros">
+    <div class="filtros-inner">
+      <div class="campos">
+        <label>De <select id="fDe"></select></label>
+        <label>Até <select id="fAte"></select></label>
+        <label>Parceiro <select id="fParceiro"></select></label>
+        <label>Etapa do pipeline <select id="fEtapa"></select></label>
+        <button type="button" id="limpar" class="btn-sec">Restaurar padrão</button>
+      </div>
+      <div class="regua-wrap">
+        <div class="regua" id="regua" role="group" aria-label="Linha do tempo: clique em dois meses para definir o período"></div>
+        <div class="regua-legenda">
+          <span><i class="sw sw-real"></i>Mês fechado: quanto mais intensa a cor, maior o atingimento da meta</span>
+          <span><i class="sw sw-proj"></i>Mês futuro: só meta e forecast</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="conteudo">
+    <div id="estado" class="estado" role="status">Carregando a base fictícia…</div>
+
+    <section id="s-resultado" class="secao" hidden>
+      <div class="secao-cab">
+        <h2>Resultado do período</h2>
+        <p class="nota" id="notaPeriodo"></p>
+      </div>
+      <div class="kpis" id="kpis"></div>
+
+      <div class="proj">
+        <div class="proj-cab">
+          <h3 id="tituloProj">Projeção</h3>
+          <p class="nota">Valores previstos, nunca somados ao realizado. Não dependem do filtro de período.</p>
+        </div>
+        <div class="kpis kpis-proj" id="kpisProj"></div>
+      </div>
+    </section>
+
+    <section id="s-evolucao" class="secao" hidden>
+      <div class="secao-cab">
+        <h2>Meta, realizado e previsão por mês</h2>
+        <ul class="legenda" aria-label="Legenda do gráfico">
+          <li><i class="sw sw-real"></i>Realizado</li>
+          <li><i class="sw sw-meta"></i>Meta</li>
+          <li><i class="sw sw-ring"></i>Forecast registrado no 1º dia do mês</li>
+          <li><i class="sw sw-proj"></i>Forecast declarado (mês futuro)</li>
+          <li><i class="sw sw-diam"></i>Pipeline ponderado (mês futuro)</li>
+        </ul>
+      </div>
+      <div class="graf graf-alto"><canvas id="gMensal" aria-label="Gráfico mensal de meta, realizado e forecast" role="img"></canvas></div>
+    </section>
+
+    <section id="s-parceiros" class="secao" hidden>
+      <div class="secao-cab">
+        <h2>Desempenho por parceiro</h2>
+        <p class="nota">Clique em um parceiro para filtrar o painel. Linhas verticais: 80% e 100% de atingimento.</p>
+      </div>
+      <div class="graf" id="wrapRanking"><canvas id="gRanking" aria-label="Atingimento por parceiro" role="img"></canvas></div>
+      <div class="tabela-wrap">
+        <table class="tabela" id="tParceiros"></table>
+      </div>
+    </section>
+
+    <section id="s-funil" class="secao" hidden>
+      <div class="secao-cab">
+        <h2>Funil comercial</h2>
+        <p class="nota" id="notaFunil"></p>
+      </div>
+      <div class="funil-grid">
+        <div>
+          <h3>Conversão da coorte criada no período</h3>
+          <div class="funil" id="funil"></div>
+        </div>
+        <div>
+          <h3>Pipeline aberto em <span id="corteFunil"></span></h3>
+          <div class="tabela-wrap"><table class="tabela compacta" id="tPipeline"></table></div>
+          <h3 class="mt">Por que as oportunidades da coorte foram perdidas</h3>
+          <div class="barras" id="motivos"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-atencao" class="secao" hidden>
+      <div class="secao-cab">
+        <h2>O que merece atenção</h2>
+        <p class="nota">Regras aplicadas aos dados; cada alerta indica a regra que o disparou.</p>
+      </div>
+      <h3>Alertas por parceiro</h3>
+      <div class="alertas-grid" id="alertas"></div>
+      <h3 class="mt">Oportunidades abertas com sinal de risco</h3>
+      <div class="chips" id="resumoRiscos"></div>
+      <div class="tabela-wrap"><table class="tabela compacta" id="tRiscos"></table></div>
+      <button type="button" class="btn-sec" id="maisRiscos" hidden></button>
+      <h3 class="mt">Negociações prioritárias para <span id="mesM1"></span></h3>
+      <p class="nota nota-tab">Em negociação, dentro do prazo da etapa, sem pendência e com previsão para o próximo mês.</p>
+      <div class="tabela-wrap"><table class="tabela compacta" id="tPrioritarias"></table></div>
+    </section>
+
+    <section id="s-conclusoes" class="secao" hidden>
+      <div class="secao-cab">
+        <h2>Conclusões gerenciais</h2>
+        <p class="nota">Geradas a partir dos filtros atuais. Mudam quando os filtros mudam.</p>
+      </div>
+      <div class="conc-grid">
+        <div><h3>Diagnóstico</h3><ul class="conc" id="diag"></ul></div>
+        <div><h3>Ações sugeridas</h3><ul class="conc" id="recs"></ul></div>
+      </div>
+    </section>
+
+    <section id="s-metodo" class="secao" hidden>
+      <details class="metodo">
+        <summary>Como cada indicador é calculado</summary>
+        <div class="tabela-wrap"><table class="tabela compacta" id="tMetodo"></table></div>
+        <p class="nota">Definições completas, limitações e dicionário de dados em <a href="docs/dicionario_de_dados.md">docs/dicionario_de_dados.md</a>.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Projeto de portfólio com dados 100% fictícios, gerados por simulação (<code>data/gerar_dados.py</code>). Não representa nenhuma empresa real. Os números da tela são conferidos por um recálculo independente em Python (<code>validacao/validar_kpis.py</code>).</p>
+  </footer>
+
+  <script src="assets/vendor/chart.umd.min.js"></script>
+  <script src="assets/engine.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

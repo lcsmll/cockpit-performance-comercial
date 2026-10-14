@@ -1,0 +1,6 @@
+ordem,etapa,sla_dias,probabilidade_ganho
+1,Prospecção,20,0.16
+2,Qualificação,20,0.26
+3,Proposta,25,0.42
+4,Negociação,30,0.71
+5,Contrato,,1.0

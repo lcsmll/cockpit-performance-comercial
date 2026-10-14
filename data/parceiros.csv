@@ -1,0 +1,21 @@
+id_parceiro,nome_parceiro,regiao,data_credenciamento
+P01,Parceiro Aroeira,Sudeste,2024-06-01
+P02,Parceiro Buriti,Sul,2024-06-01
+P03,Parceiro Cambará,Centro-Oeste,2024-06-01
+P04,Parceiro Embaúba,Nordeste,2024-06-01
+P05,Parceiro Figueira,Sudeste,2024-06-01
+P06,Parceiro Guapuruvu,Sul,2024-06-01
+P07,Parceiro Ingá,Centro-Oeste,2024-06-01
+P08,Parceiro Jatobá,Nordeste,2024-06-01
+P09,Parceiro Jequitibá,Sudeste,2024-06-01
+P10,Parceiro Louro,Sul,2024-06-01
+P11,Parceiro Manacá,Centro-Oeste,2024-06-01
+P12,Parceiro Murici,Nordeste,2024-06-01
+P13,Parceiro Oiti,Sudeste,2024-06-01
+P14,Parceiro Pitanga,Sul,2024-06-01
+P15,Parceiro Quaresmeira,Centro-Oeste,2024-06-01
+P16,Parceiro Sapucaia,Nordeste,2024-06-01
+P17,Parceiro Tarumã,Sudeste,2025-04-01
+P18,Parceiro Umbu,Sul,2025-08-01
+P19,Parceiro Vinhático,Centro-Oeste,2025-12-01
+P20,Parceiro Ypê,Nordeste,2026-04-01

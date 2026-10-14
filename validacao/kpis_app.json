@@ -1,0 +1,2687 @@
+[
+ {
+  "nome": "Padrão: últimos 12 meses, todos os parceiros",
+  "filtros": {
+   "de": "2025-10",
+   "ate": "2026-09",
+   "parceiro": "Todos",
+   "etapa": "Todas"
+  },
+  "kpis": {
+   "meta": 37275,
+   "realizado": 36453.6,
+   "atingimento": 0.977963782696177,
+   "gap": 821.4,
+   "contratos": 2073,
+   "vies": 0.1218370750762616,
+   "wape": 0.4094245835802228,
+   "parceirosAtivos": 20
+  },
+  "projecao": {
+   "meses": [
+    "2026-10",
+    "2026-11",
+    "2026-12"
+   ],
+   "meta": 10965,
+   "forecast": 12225,
+   "forecastM1": 4005,
+   "pondM1": 3575.3,
+   "pondHorizonte": 5470.2,
+   "cobertura": 1.1149110807113543,
+   "lastroM1": 0.8927091136079901
+  },
+  "serie": [
+   {
+    "mes": "2025-10",
+    "tipo": "fechado",
+    "meta": 3085,
+    "realizado": 2838.1,
+    "atingimento": 0.919967585089141,
+    "forecastRegistrado": 3320
+   },
+   {
+    "mes": "2025-11",
+    "tipo": "fechado",
+    "meta": 3145,
+    "realizado": 3385.9,
+    "atingimento": 1.0765977742448332,
+    "forecastRegistrado": 3365
+   },
+   {
+    "mes": "2025-12",
+    "tipo": "fechado",
+    "meta": 3050,
+    "realizado": 2918.8,
+    "atingimento": 0.9569836065573771,
+    "forecastRegistrado": 3435
+   },
+   {
+    "mes": "2026-01",
+    "tipo": "fechado",
+    "meta": 2840,
+    "realizado": 2651.4,
+    "atingimento": 0.9335915492957747,
+    "forecastRegistrado": 3335
+   },
+   {
+    "mes": "2026-02",
+    "tipo": "fechado",
+    "meta": 2840,
+    "realizado": 2230.6,
+    "atingimento": 0.7854225352112676,
+    "forecastRegistrado": 3150
+   },
+   {
+    "mes": "2026-03",
+    "tipo": "fechado",
+    "meta": 3060,
+    "realizado": 1988.3,
+    "atingimento": 0.6497712418300653,
+    "forecastRegistrado": 2940
+   },
+   {
+    "mes": "2026-04",
+    "tipo": "fechado",
+    "meta": 2970,
+    "realizado": 2960.3,
+    "atingimento": 0.9967340067340068,
+    "forecastRegistrado": 3240
+   },
+   {
+    "mes": "2026-05",
+    "tipo": "fechado",
+    "meta": 3035,
+    "realizado": 3553.5,
+    "atingimento": 1.170840197693575,
+    "forecastRegistrado": 3545
+   },
+   {
+    "mes": "2026-06",
+    "tipo": "fechado",
+    "meta": 3110,
+    "realizado": 2998.5,
+    "atingimento": 0.9641479099678456,
+    "forecastRegistrado": 3540
+   },
+   {
+    "mes": "2026-07",
+    "tipo": "fechado",
+    "meta": 3245,
+    "realizado": 3697.8,
+    "atingimento": 1.139537750385208,
+    "forecastRegistrado": 3495
+   },
+   {
+    "mes": "2026-08",
+    "tipo": "fechado",
+    "meta": 3405,
+    "realizado": 3368.6,
+    "atingimento": 0.989309838472834,
+    "forecastRegistrado": 3630
+   },
+   {
+    "mes": "2026-09",
+    "tipo": "fechado",
+    "meta": 3490,
+    "realizado": 3861.8,
+    "atingimento": 1.1065329512893984,
+    "forecastRegistrado": 3900
+   },
+   {
+    "mes": "2026-10",
+    "tipo": "futuro",
+    "meta": 3830,
+    "forecast": 4005,
+    "pipelinePonderado": 3575.3
+   },
+   {
+    "mes": "2026-11",
+    "tipo": "futuro",
+    "meta": 3715,
+    "forecast": 4150,
+    "pipelinePonderado": 1642.4
+   },
+   {
+    "mes": "2026-12",
+    "tipo": "futuro",
+    "meta": 3420,
+    "forecast": 4070,
+    "pipelinePonderado": 252.5
+   }
+  ],
+  "parceiros": [
+   {
+    "id": "P01",
+    "meta": 2625,
+    "realizado": 2560.2,
+    "atingimento": 0.9753142857142857,
+    "vies": 0.025310522615420744,
+    "tendencia": 0.17542925595634218,
+    "lastroM1": 0.8629632653061226,
+    "riscoPipe": 0.16727657152150932,
+    "alertas": []
+   },
+   {
+    "id": "P02",
+    "meta": 2150,
+    "realizado": 1957,
+    "atingimento": 0.9102325581395349,
+    "vies": 0.21359223300970873,
+    "tendencia": 0.42007864908628245,
+    "lastroM1": 1.0025545454545455,
+    "riscoPipe": 0.24249553025312887,
+    "alertas": []
+   },
+   {
+    "id": "P03",
+    "meta": 4270,
+    "realizado": 3987.9,
+    "atingimento": 0.9339344262295083,
+    "vies": 0.21743273402041158,
+    "tendencia": 0.28306128433193267,
+    "lastroM1": 0.944391919191919,
+    "riscoPipe": 0.13825536873647418,
+    "alertas": []
+   },
+   {
+    "id": "P04",
+    "meta": 1470,
+    "realizado": 1349.7,
+    "atingimento": 0.9181632653061224,
+    "vies": 0.1558124027561682,
+    "tendencia": 1.0518783542039354,
+    "lastroM1": 0.5246,
+    "riscoPipe": 0.04159090909090909,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P05",
+    "meta": 2625,
+    "realizado": 2478.5,
+    "atingimento": 0.9441904761904761,
+    "vies": -0.17692152511599757,
+    "tendencia": -0.25114103149246936,
+    "lastroM1": 1.72251052631579,
+    "riscoPipe": 0.2319863887707358,
+    "alertas": []
+   },
+   {
+    "id": "P06",
+    "meta": 1460,
+    "realizado": 1229.9,
+    "atingimento": 0.8423972602739725,
+    "vies": 0.073257988454346,
+    "tendencia": 0.6480938416422286,
+    "lastroM1": 1.1056869565217393,
+    "riscoPipe": 0.36188151763922793,
+    "alertas": []
+   },
+   {
+    "id": "P07",
+    "meta": 2655,
+    "realizado": 2122.7,
+    "atingimento": 0.7995103578154424,
+    "vies": 0.25547651575823255,
+    "tendencia": -0.3357588357588358,
+    "lastroM1": 1.0380071428571427,
+    "riscoPipe": 0.19976703552708208,
+    "alertas": [
+     "A2",
+     "A3"
+    ]
+   },
+   {
+    "id": "P08",
+    "meta": 2140,
+    "realizado": 2122.8,
+    "atingimento": 0.9919626168224298,
+    "vies": 0.1470699076691164,
+    "tendencia": 0.03335968379446652,
+    "lastroM1": 1.0322333333333331,
+    "riscoPipe": 0.16699945543655834,
+    "alertas": []
+   },
+   {
+    "id": "P09",
+    "meta": 2160,
+    "realizado": 2557.8,
+    "atingimento": 1.1841666666666668,
+    "vies": -0.19266557197591686,
+    "tendencia": -0.14752055818589593,
+    "lastroM1": 0.9631999999999998,
+    "riscoPipe": 0.21714681867200733,
+    "alertas": []
+   },
+   {
+    "id": "P10",
+    "meta": 1145,
+    "realizado": 1258.8,
+    "atingimento": 1.0993886462882099,
+    "vies": 0.012869399428026545,
+    "tendencia": 0.41055718475073344,
+    "lastroM1": 0.8087913043478261,
+    "riscoPipe": 0.24621278077659758,
+    "alertas": []
+   },
+   {
+    "id": "P11",
+    "meta": 2025,
+    "realizado": 1920.3,
+    "atingimento": 0.9482962962962964,
+    "vies": 0.4919543821277924,
+    "tendencia": -0.3380189604445897,
+    "lastroM1": 0.6776000000000001,
+    "riscoPipe": 0.19336810730253357,
+    "alertas": [
+     "A2",
+     "A3"
+    ]
+   },
+   {
+    "id": "P12",
+    "meta": 670,
+    "realizado": 660.6,
+    "atingimento": 0.9859701492537314,
+    "vies": 0.38510445049954584,
+    "tendencia": 0.03201506591337111,
+    "lastroM1": 0.7608999999999999,
+    "riscoPipe": 0.08232207281075761,
+    "alertas": [
+     "A3"
+    ]
+   },
+   {
+    "id": "P13",
+    "meta": 2575,
+    "realizado": 2510.6,
+    "atingimento": 0.9749902912621361,
+    "vies": 0.09137258025969872,
+    "tendencia": 0.3828720044584808,
+    "lastroM1": 0.7878148148148147,
+    "riscoPipe": 0.5007178178337853,
+    "alertas": [
+     "A5"
+    ]
+   },
+   {
+    "id": "P14",
+    "meta": 1245,
+    "realizado": 1008.5,
+    "atingimento": 0.8100401606425702,
+    "vies": 0.15518096182449181,
+    "tendencia": -0.09303278688524597,
+    "lastroM1": 0.46868695652173914,
+    "riscoPipe": 0.047036883547451315,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P15",
+    "meta": 2300,
+    "realizado": 2148.3,
+    "atingimento": 0.9340434782608696,
+    "vies": 0.12879951589629,
+    "tendencia": 0.11197858576845876,
+    "lastroM1": 0.8614595744680851,
+    "riscoPipe": 0.31285344579699026,
+    "alertas": []
+   },
+   {
+    "id": "P16",
+    "meta": 1235,
+    "realizado": 1205,
+    "atingimento": 0.9757085020242915,
+    "vies": 0.7593360995850622,
+    "tendencia": -0.20648030495552727,
+    "lastroM1": 0.6308380952380952,
+    "riscoPipe": 0.15037507212925563,
+    "alertas": [
+     "A3"
+    ]
+   },
+   {
+    "id": "P17",
+    "meta": 2065,
+    "realizado": 2364.5,
+    "atingimento": 1.1450363196125906,
+    "vies": -0.025163882427574353,
+    "tendencia": 1.8323451910408433,
+    "lastroM1": 1.1509409090909088,
+    "riscoPipe": 0.33189762279466584,
+    "alertas": []
+   },
+   {
+    "id": "P18",
+    "meta": 1265,
+    "realizado": 1481.3,
+    "atingimento": 1.1709881422924902,
+    "vies": 0.03962735435090802,
+    "tendencia": -0.1613424264178035,
+    "lastroM1": 1.2357483870967743,
+    "riscoPipe": 0.05020597322348094,
+    "alertas": []
+   },
+   {
+    "id": "P19",
+    "meta": 880,
+    "realizado": 1123.6,
+    "atingimento": 1.2768181818181816,
+    "vies": -0.007653969384122383,
+    "tendencia": 0.20245120290512952,
+    "lastroM1": 0.4864476190476191,
+    "riscoPipe": 0.11636273415209034,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P20",
+    "meta": 315,
+    "realizado": 405.6,
+    "atingimento": 1.2876190476190477,
+    "vies": 0.20808678500986186,
+    "tendencia": 3.563786008230452,
+    "lastroM1": 0.6663210526315789,
+    "riscoPipe": 0.14000700035001748,
+    "alertas": [
+     "RAMPA"
+    ]
+   }
+  ],
+  "conversao": [
+   {
+    "de": "Prospecção",
+    "taxa": 0.6088084879016868,
+    "base": 13101
+   },
+   {
+    "de": "Qualificação",
+    "taxa": 0.6043129388164493,
+    "base": 7976
+   },
+   {
+    "de": "Proposta",
+    "taxa": 0.5719917012448132,
+    "base": 4820
+   },
+   {
+    "de": "Negociação",
+    "taxa": 0.6412767500906783,
+    "base": 2757
+   }
+  ],
+  "pipelineAberto": [
+   {
+    "etapa": "Prospecção",
+    "qtd": 336,
+    "kwp": 6342.5,
+    "ponderado": 1014.8,
+    "emRisco": 7
+   },
+   {
+    "etapa": "Qualificação",
+    "qtd": 294,
+    "kwp": 4892.4,
+    "ponderado": 1272,
+    "emRisco": 46
+   },
+   {
+    "etapa": "Proposta",
+    "qtd": 224,
+    "kwp": 4197.9,
+    "ponderado": 1763.1,
+    "emRisco": 66
+   },
+   {
+    "etapa": "Negociação",
+    "qtd": 213,
+    "kwp": 3867.7,
+    "ponderado": 2746.1,
+    "emRisco": 125
+   }
+  ],
+  "resumoRiscos": [
+   {
+    "codigo": "SLA",
+    "nome": "Parada acima do prazo da etapa",
+    "qtd": 69,
+    "kwp": 1344.1
+   },
+   {
+    "codigo": "VENCIDA",
+    "nome": "Previsão de fechamento vencida",
+    "qtd": 95,
+    "kwp": 1901.6
+   },
+   {
+    "codigo": "PENDENCIA",
+    "nome": "Pendência em aberto",
+    "qtd": 185,
+    "kwp": 3131
+   }
+  ],
+  "qtdRiscos": 244,
+  "qtdPrioritarias": 88
+ },
+ {
+  "nome": "Histórico completo (24 meses)",
+  "filtros": {
+   "de": "2024-10",
+   "ate": "2026-09",
+   "parceiro": "Todos",
+   "etapa": "Todas"
+  },
+  "kpis": {
+   "meta": 70815,
+   "realizado": 67407.7,
+   "atingimento": 0.9518844877497705,
+   "gap": 3407.3,
+   "contratos": 3847,
+   "vies": 0.1027671912852684,
+   "wape": 0.40426093754867753,
+   "parceirosAtivos": 20
+  },
+  "projecao": {
+   "meses": [
+    "2026-10",
+    "2026-11",
+    "2026-12"
+   ],
+   "meta": 10965,
+   "forecast": 12225,
+   "forecastM1": 4005,
+   "pondM1": 3575.3,
+   "pondHorizonte": 5470.2,
+   "cobertura": 1.1149110807113543,
+   "lastroM1": 0.8927091136079901
+  },
+  "serie": [
+   {
+    "mes": "2024-10",
+    "tipo": "fechado",
+    "meta": 2745,
+    "realizado": 2940.4,
+    "atingimento": 1.071183970856102,
+    "forecastRegistrado": 2730
+   },
+   {
+    "mes": "2024-11",
+    "tipo": "fechado",
+    "meta": 2805,
+    "realizado": 2793.6,
+    "atingimento": 0.9959358288770053,
+    "forecastRegistrado": 2790
+   },
+   {
+    "mes": "2024-12",
+    "tipo": "fechado",
+    "meta": 2880,
+    "realizado": 2263.1,
+    "atingimento": 0.785798611111111,
+    "forecastRegistrado": 2870
+   },
+   {
+    "mes": "2025-01",
+    "tipo": "fechado",
+    "meta": 2800,
+    "realizado": 2785.7,
+    "atingimento": 0.994892857142857,
+    "forecastRegistrado": 2715
+   },
+   {
+    "mes": "2025-02",
+    "tipo": "fechado",
+    "meta": 2730,
+    "realizado": 1845.5,
+    "atingimento": 0.676007326007326,
+    "forecastRegistrado": 2525
+   },
+   {
+    "mes": "2025-03",
+    "tipo": "fechado",
+    "meta": 2840,
+    "realizado": 2116.3,
+    "atingimento": 0.7451760563380282,
+    "forecastRegistrado": 2315
+   },
+   {
+    "mes": "2025-04",
+    "tipo": "fechado",
+    "meta": 2715,
+    "realizado": 2107.6,
+    "atingimento": 0.776279926335175,
+    "forecastRegistrado": 2620
+   },
+   {
+    "mes": "2025-05",
+    "tipo": "fechado",
+    "meta": 2680,
+    "realizado": 2739,
+    "atingimento": 1.0220149253731343,
+    "forecastRegistrado": 2765
+   },
+   {
+    "mes": "2025-06",
+    "tipo": "fechado",
+    "meta": 2680,
+    "realizado": 2708.2,
+    "atingimento": 1.0105223880597014,
+    "forecastRegistrado": 2940
+   },
+   {
+    "mes": "2025-07",
+    "tipo": "fechado",
+    "meta": 2810,
+    "realizado": 3090.1,
+    "atingimento": 1.099679715302491,
+    "forecastRegistrado": 2900
+   },
+   {
+    "mes": "2025-08",
+    "tipo": "fechado",
+    "meta": 2880,
+    "realizado": 2817.9,
+    "atingimento": 0.9784375000000001,
+    "forecastRegistrado": 3020
+   },
+   {
+    "mes": "2025-09",
+    "tipo": "fechado",
+    "meta": 2975,
+    "realizado": 2746.7,
+    "atingimento": 0.9232605042016806,
+    "forecastRegistrado": 3250
+   },
+   {
+    "mes": "2025-10",
+    "tipo": "fechado",
+    "meta": 3085,
+    "realizado": 2838.1,
+    "atingimento": 0.919967585089141,
+    "forecastRegistrado": 3320
+   },
+   {
+    "mes": "2025-11",
+    "tipo": "fechado",
+    "meta": 3145,
+    "realizado": 3385.9,
+    "atingimento": 1.0765977742448332,
+    "forecastRegistrado": 3365
+   },
+   {
+    "mes": "2025-12",
+    "tipo": "fechado",
+    "meta": 3050,
+    "realizado": 2918.8,
+    "atingimento": 0.9569836065573771,
+    "forecastRegistrado": 3435
+   },
+   {
+    "mes": "2026-01",
+    "tipo": "fechado",
+    "meta": 2840,
+    "realizado": 2651.4,
+    "atingimento": 0.9335915492957747,
+    "forecastRegistrado": 3335
+   },
+   {
+    "mes": "2026-02",
+    "tipo": "fechado",
+    "meta": 2840,
+    "realizado": 2230.6,
+    "atingimento": 0.7854225352112676,
+    "forecastRegistrado": 3150
+   },
+   {
+    "mes": "2026-03",
+    "tipo": "fechado",
+    "meta": 3060,
+    "realizado": 1988.3,
+    "atingimento": 0.6497712418300653,
+    "forecastRegistrado": 2940
+   },
+   {
+    "mes": "2026-04",
+    "tipo": "fechado",
+    "meta": 2970,
+    "realizado": 2960.3,
+    "atingimento": 0.9967340067340068,
+    "forecastRegistrado": 3240
+   },
+   {
+    "mes": "2026-05",
+    "tipo": "fechado",
+    "meta": 3035,
+    "realizado": 3553.5,
+    "atingimento": 1.170840197693575,
+    "forecastRegistrado": 3545
+   },
+   {
+    "mes": "2026-06",
+    "tipo": "fechado",
+    "meta": 3110,
+    "realizado": 2998.5,
+    "atingimento": 0.9641479099678456,
+    "forecastRegistrado": 3540
+   },
+   {
+    "mes": "2026-07",
+    "tipo": "fechado",
+    "meta": 3245,
+    "realizado": 3697.8,
+    "atingimento": 1.139537750385208,
+    "forecastRegistrado": 3495
+   },
+   {
+    "mes": "2026-08",
+    "tipo": "fechado",
+    "meta": 3405,
+    "realizado": 3368.6,
+    "atingimento": 0.989309838472834,
+    "forecastRegistrado": 3630
+   },
+   {
+    "mes": "2026-09",
+    "tipo": "fechado",
+    "meta": 3490,
+    "realizado": 3861.8,
+    "atingimento": 1.1065329512893984,
+    "forecastRegistrado": 3900
+   },
+   {
+    "mes": "2026-10",
+    "tipo": "futuro",
+    "meta": 3830,
+    "forecast": 4005,
+    "pipelinePonderado": 3575.3
+   },
+   {
+    "mes": "2026-11",
+    "tipo": "futuro",
+    "meta": 3715,
+    "forecast": 4150,
+    "pipelinePonderado": 1642.4
+   },
+   {
+    "mes": "2026-12",
+    "tipo": "futuro",
+    "meta": 3420,
+    "forecast": 4070,
+    "pipelinePonderado": 252.5
+   }
+  ],
+  "parceiros": [
+   {
+    "id": "P01",
+    "meta": 5040,
+    "realizado": 5013.4,
+    "atingimento": 0.9947222222222222,
+    "vies": -0.01663541708221958,
+    "tendencia": 0.17542925595634218,
+    "lastroM1": 0.8629632653061226,
+    "riscoPipe": 0.16727657152150932,
+    "alertas": []
+   },
+   {
+    "id": "P02",
+    "meta": 4735,
+    "realizado": 4372.8,
+    "atingimento": 0.9235058078141501,
+    "vies": 0.0691090376875226,
+    "tendencia": 0.42007864908628245,
+    "lastroM1": 1.0025545454545455,
+    "riscoPipe": 0.24249553025312887,
+    "alertas": []
+   },
+   {
+    "id": "P03",
+    "meta": 8355,
+    "realizado": 8105.1,
+    "atingimento": 0.9700897666068222,
+    "vies": 0.12274987353641542,
+    "tendencia": 0.28306128433193267,
+    "lastroM1": 0.944391919191919,
+    "riscoPipe": 0.13825536873647418,
+    "alertas": []
+   },
+   {
+    "id": "P04",
+    "meta": 2575,
+    "realizado": 2405.4,
+    "atingimento": 0.9341359223300971,
+    "vies": 0.1640475596574374,
+    "tendencia": 1.0518783542039354,
+    "lastroM1": 0.5246,
+    "riscoPipe": 0.04159090909090909,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P05",
+    "meta": 5240,
+    "realizado": 4917.3,
+    "atingimento": 0.9384160305343514,
+    "vies": -0.1662090984890084,
+    "tendencia": -0.25114103149246936,
+    "lastroM1": 1.72251052631579,
+    "riscoPipe": 0.2319863887707358,
+    "alertas": []
+   },
+   {
+    "id": "P06",
+    "meta": 2855,
+    "realizado": 2533.8,
+    "atingimento": 0.8874956217162873,
+    "vies": 0.04585997316283835,
+    "tendencia": 0.6480938416422286,
+    "lastroM1": 1.1056869565217393,
+    "riscoPipe": 0.36188151763922793,
+    "alertas": []
+   },
+   {
+    "id": "P07",
+    "meta": 5840,
+    "realizado": 5108.6,
+    "atingimento": 0.8747602739726027,
+    "vies": 0.08640331989194702,
+    "tendencia": -0.3357588357588358,
+    "lastroM1": 1.0380071428571427,
+    "riscoPipe": 0.19976703552708208,
+    "alertas": [
+     "A2"
+    ]
+   },
+   {
+    "id": "P08",
+    "meta": 4310,
+    "realizado": 3977.1,
+    "atingimento": 0.9227610208816704,
+    "vies": 0.15033567172060058,
+    "tendencia": 0.03335968379446652,
+    "lastroM1": 1.0322333333333331,
+    "riscoPipe": 0.16699945543655834,
+    "alertas": []
+   },
+   {
+    "id": "P09",
+    "meta": 4535,
+    "realizado": 4504.8,
+    "atingimento": 0.9933406835722162,
+    "vies": -0.07876043331557453,
+    "tendencia": -0.14752055818589593,
+    "lastroM1": 0.9631999999999998,
+    "riscoPipe": 0.21714681867200733,
+    "alertas": []
+   },
+   {
+    "id": "P10",
+    "meta": 2445,
+    "realizado": 2479.3,
+    "atingimento": 1.0140286298568506,
+    "vies": -0.04005162747549701,
+    "tendencia": 0.41055718475073344,
+    "lastroM1": 0.8087913043478261,
+    "riscoPipe": 0.24621278077659758,
+    "alertas": []
+   },
+   {
+    "id": "P11",
+    "meta": 3750,
+    "realizado": 3498.9,
+    "atingimento": 0.9330400000000001,
+    "vies": 0.5404841521621079,
+    "tendencia": -0.3380189604445897,
+    "lastroM1": 0.6776000000000001,
+    "riscoPipe": 0.19336810730253357,
+    "alertas": [
+     "A2",
+     "A3"
+    ]
+   },
+   {
+    "id": "P12",
+    "meta": 1515,
+    "realizado": 1336.9,
+    "atingimento": 0.8824422442244223,
+    "vies": 0.36509836188196587,
+    "tendencia": 0.03201506591337111,
+    "lastroM1": 0.7608999999999999,
+    "riscoPipe": 0.08232207281075761,
+    "alertas": [
+     "A3"
+    ]
+   },
+   {
+    "id": "P13",
+    "meta": 5310,
+    "realizado": 5158.1,
+    "atingimento": 0.9713935969868173,
+    "vies": -0.005447742385762094,
+    "tendencia": 0.3828720044584808,
+    "lastroM1": 0.7878148148148147,
+    "riscoPipe": 0.5007178178337853,
+    "alertas": [
+     "A5"
+    ]
+   },
+   {
+    "id": "P14",
+    "meta": 2170,
+    "realizado": 1961.7,
+    "atingimento": 0.9040092165898617,
+    "vies": 0.12147627058163848,
+    "tendencia": -0.09303278688524597,
+    "lastroM1": 0.46868695652173914,
+    "riscoPipe": 0.047036883547451315,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P15",
+    "meta": 4620,
+    "realizado": 4161.1,
+    "atingimento": 0.9006709956709957,
+    "vies": 0.1475331042272475,
+    "tendencia": 0.11197858576845876,
+    "lastroM1": 0.8614595744680851,
+    "riscoPipe": 0.31285344579699026,
+    "alertas": []
+   },
+   {
+    "id": "P16",
+    "meta": 2605,
+    "realizado": 1982.4,
+    "atingimento": 0.7609980806142033,
+    "vies": 1.0757667473769172,
+    "tendencia": -0.20648030495552727,
+    "lastroM1": 0.6308380952380952,
+    "riscoPipe": 0.15037507212925563,
+    "alertas": [
+     "A1",
+     "A3"
+    ]
+   },
+   {
+    "id": "P17",
+    "meta": 2435,
+    "realizado": 2880.5,
+    "atingimento": 1.1829568788501026,
+    "vies": -0.019267488283283996,
+    "tendencia": 1.8323451910408433,
+    "lastroM1": 1.1509409090909088,
+    "riscoPipe": 0.33189762279466584,
+    "alertas": []
+   },
+   {
+    "id": "P18",
+    "meta": 1285,
+    "realizado": 1481.3,
+    "atingimento": 1.152762645914397,
+    "vies": 0.05312900830351721,
+    "tendencia": -0.1613424264178035,
+    "lastroM1": 1.2357483870967743,
+    "riscoPipe": 0.05020597322348094,
+    "alertas": []
+   },
+   {
+    "id": "P19",
+    "meta": 880,
+    "realizado": 1123.6,
+    "atingimento": 1.2768181818181816,
+    "vies": -0.007653969384122383,
+    "tendencia": 0.20245120290512952,
+    "lastroM1": 0.4864476190476191,
+    "riscoPipe": 0.11636273415209034,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P20",
+    "meta": 315,
+    "realizado": 405.6,
+    "atingimento": 1.2876190476190477,
+    "vies": 0.20808678500986186,
+    "tendencia": 3.563786008230452,
+    "lastroM1": 0.6663210526315789,
+    "riscoPipe": 0.14000700035001748,
+    "alertas": [
+     "RAMPA"
+    ]
+   }
+  ],
+  "conversao": [
+   {
+    "de": "Prospecção",
+    "taxa": 0.6137182585103226,
+    "base": 23589
+   },
+   {
+    "de": "Qualificação",
+    "taxa": 0.6166332803757685,
+    "base": 14477
+   },
+   {
+    "de": "Proposta",
+    "taxa": 0.5876554273552145,
+    "base": 8927
+   },
+   {
+    "de": "Negociação",
+    "taxa": 0.6774685474647351,
+    "base": 5246
+   }
+  ],
+  "pipelineAberto": [
+   {
+    "etapa": "Prospecção",
+    "qtd": 336,
+    "kwp": 6342.5,
+    "ponderado": 1014.8,
+    "emRisco": 7
+   },
+   {
+    "etapa": "Qualificação",
+    "qtd": 294,
+    "kwp": 4892.4,
+    "ponderado": 1272,
+    "emRisco": 46
+   },
+   {
+    "etapa": "Proposta",
+    "qtd": 224,
+    "kwp": 4197.9,
+    "ponderado": 1763.1,
+    "emRisco": 66
+   },
+   {
+    "etapa": "Negociação",
+    "qtd": 213,
+    "kwp": 3867.7,
+    "ponderado": 2746.1,
+    "emRisco": 125
+   }
+  ],
+  "resumoRiscos": [
+   {
+    "codigo": "SLA",
+    "nome": "Parada acima do prazo da etapa",
+    "qtd": 69,
+    "kwp": 1344.1
+   },
+   {
+    "codigo": "VENCIDA",
+    "nome": "Previsão de fechamento vencida",
+    "qtd": 95,
+    "kwp": 1901.6
+   },
+   {
+    "codigo": "PENDENCIA",
+    "nome": "Pendência em aberto",
+    "qtd": 185,
+    "kwp": 3131
+   }
+  ],
+  "qtdRiscos": 244,
+  "qtdPrioritarias": 88
+ },
+ {
+  "nome": "Último trimestre",
+  "filtros": {
+   "de": "2026-07",
+   "ate": "2026-09",
+   "parceiro": "Todos",
+   "etapa": "Todas"
+  },
+  "kpis": {
+   "meta": 10140,
+   "realizado": 10928.2,
+   "atingimento": 1.0777317554240633,
+   "gap": -788.2,
+   "contratos": 592,
+   "vies": 0.008857817389871672,
+   "wape": 0.35467872110686094,
+   "parceirosAtivos": 20
+  },
+  "projecao": {
+   "meses": [
+    "2026-10",
+    "2026-11",
+    "2026-12"
+   ],
+   "meta": 10965,
+   "forecast": 12225,
+   "forecastM1": 4005,
+   "pondM1": 3575.3,
+   "pondHorizonte": 5470.2,
+   "cobertura": 1.1149110807113543,
+   "lastroM1": 0.8927091136079901
+  },
+  "serie": [
+   {
+    "mes": "2026-07",
+    "tipo": "fechado",
+    "meta": 3245,
+    "realizado": 3697.8,
+    "atingimento": 1.139537750385208,
+    "forecastRegistrado": 3495
+   },
+   {
+    "mes": "2026-08",
+    "tipo": "fechado",
+    "meta": 3405,
+    "realizado": 3368.6,
+    "atingimento": 0.989309838472834,
+    "forecastRegistrado": 3630
+   },
+   {
+    "mes": "2026-09",
+    "tipo": "fechado",
+    "meta": 3490,
+    "realizado": 3861.8,
+    "atingimento": 1.1065329512893984,
+    "forecastRegistrado": 3900
+   },
+   {
+    "mes": "2026-10",
+    "tipo": "futuro",
+    "meta": 3830,
+    "forecast": 4005,
+    "pipelinePonderado": 3575.3
+   },
+   {
+    "mes": "2026-11",
+    "tipo": "futuro",
+    "meta": 3715,
+    "forecast": 4150,
+    "pipelinePonderado": 1642.4
+   },
+   {
+    "mes": "2026-12",
+    "tipo": "futuro",
+    "meta": 3420,
+    "forecast": 4070,
+    "pipelinePonderado": 252.5
+   }
+  ],
+  "parceiros": [
+   {
+    "id": "P01",
+    "meta": 725,
+    "realizado": 883.1,
+    "atingimento": 1.2180689655172412,
+    "vies": -0.22432340618276517,
+    "tendencia": null,
+    "lastroM1": 0.8629632653061226,
+    "riscoPipe": 0.16727657152150932,
+    "alertas": []
+   },
+   {
+    "id": "P02",
+    "meta": 560,
+    "realizado": 613.9,
+    "atingimento": 1.09625,
+    "vies": 0.0669490144974752,
+    "tendencia": null,
+    "lastroM1": 1.0025545454545455,
+    "riscoPipe": 0.24249553025312887,
+    "alertas": []
+   },
+   {
+    "id": "P03",
+    "meta": 1000,
+    "realizado": 1312.7,
+    "atingimento": 1.3127000000000002,
+    "vies": 0.024605774358192823,
+    "tendencia": null,
+    "lastroM1": 0.944391919191919,
+    "riscoPipe": 0.13825536873647418,
+    "alertas": []
+   },
+   {
+    "id": "P04",
+    "meta": 300,
+    "realizado": 458.8,
+    "atingimento": 1.5293333333333332,
+    "vies": -0.08456843940714899,
+    "tendencia": null,
+    "lastroM1": 0.5246,
+    "riscoPipe": 0.04159090909090909,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P05",
+    "meta": 765,
+    "realizado": 656.3,
+    "atingimento": 0.8579084967320261,
+    "vies": -0.23053481639494128,
+    "tendencia": null,
+    "lastroM1": 1.72251052631579,
+    "riscoPipe": 0.2319863887707358,
+    "alertas": []
+   },
+   {
+    "id": "P06",
+    "meta": 305,
+    "realizado": 337.2,
+    "atingimento": 1.1055737704918032,
+    "vies": -0.021352313167259752,
+    "tendencia": null,
+    "lastroM1": 1.1056869565217393,
+    "riscoPipe": 0.36188151763922793,
+    "alertas": []
+   },
+   {
+    "id": "P07",
+    "meta": 585,
+    "realizado": 319.5,
+    "atingimento": 0.5461538461538461,
+    "vies": 0.4397496087636933,
+    "tendencia": null,
+    "lastroM1": 1.0380071428571427,
+    "riscoPipe": 0.19976703552708208,
+    "alertas": [
+     "A1",
+     "A3"
+    ]
+   },
+   {
+    "id": "P08",
+    "meta": 615,
+    "realizado": 653.6,
+    "atingimento": 1.0627642276422764,
+    "vies": -0.10495716034271729,
+    "tendencia": null,
+    "lastroM1": 1.0322333333333331,
+    "riscoPipe": 0.16699945543655834,
+    "alertas": []
+   },
+   {
+    "id": "P09",
+    "meta": 635,
+    "realizado": 684.2,
+    "atingimento": 1.07748031496063,
+    "vies": -0.24729611224788078,
+    "tendencia": null,
+    "lastroM1": 0.9631999999999998,
+    "riscoPipe": 0.21714681867200733,
+    "alertas": []
+   },
+   {
+    "id": "P10",
+    "meta": 325,
+    "realizado": 481,
+    "atingimento": 1.48,
+    "vies": -0.26195426195426197,
+    "tendencia": null,
+    "lastroM1": 0.8087913043478261,
+    "riscoPipe": 0.24621278077659758,
+    "alertas": []
+   },
+   {
+    "id": "P11",
+    "meta": 640,
+    "realizado": 405,
+    "atingimento": 0.6328125,
+    "vies": 0.9135802469135802,
+    "tendencia": null,
+    "lastroM1": 0.6776000000000001,
+    "riscoPipe": 0.19336810730253357,
+    "alertas": [
+     "A1",
+     "A3"
+    ]
+   },
+   {
+    "id": "P12",
+    "meta": 205,
+    "realizado": 219.2,
+    "atingimento": 1.0692682926829267,
+    "vies": 0.0036496350364964023,
+    "tendencia": null,
+    "lastroM1": 0.7608999999999999,
+    "riscoPipe": 0.08232207281075761,
+    "alertas": []
+   },
+   {
+    "id": "P13",
+    "meta": 600,
+    "realizado": 744.4,
+    "atingimento": 1.2406666666666668,
+    "vies": -0.03949489521762505,
+    "tendencia": null,
+    "lastroM1": 0.7878148148148147,
+    "riscoPipe": 0.5007178178337853,
+    "alertas": [
+     "A5"
+    ]
+   },
+   {
+    "id": "P14",
+    "meta": 265,
+    "realizado": 221.3,
+    "atingimento": 0.8350943396226415,
+    "vies": 0.44600090375056495,
+    "tendencia": null,
+    "lastroM1": 0.46868695652173914,
+    "riscoPipe": 0.047036883547451315,
+    "alertas": [
+     "A3",
+     "A4"
+    ]
+   },
+   {
+    "id": "P15",
+    "meta": 510,
+    "realizado": 498.5,
+    "atingimento": 0.9774509803921568,
+    "vies": 0.19358074222668004,
+    "tendencia": null,
+    "lastroM1": 0.8614595744680851,
+    "riscoPipe": 0.31285344579699026,
+    "alertas": []
+   },
+   {
+    "id": "P16",
+    "meta": 315,
+    "realizado": 249.8,
+    "atingimento": 0.7930158730158731,
+    "vies": 1.3218574859887908,
+    "tendencia": null,
+    "lastroM1": 0.6308380952380952,
+    "riscoPipe": 0.15037507212925563,
+    "alertas": [
+     "A1",
+     "A3"
+    ]
+   },
+   {
+    "id": "P17",
+    "meta": 545,
+    "realizado": 859.9,
+    "atingimento": 1.5777981651376145,
+    "vies": -0.30805907663681814,
+    "tendencia": null,
+    "lastroM1": 1.1509409090909088,
+    "riscoPipe": 0.33189762279466584,
+    "alertas": []
+   },
+   {
+    "id": "P18",
+    "meta": 555,
+    "realizado": 467.3,
+    "atingimento": 0.8419819819819819,
+    "vies": -0.03702118553391816,
+    "tendencia": null,
+    "lastroM1": 1.2357483870967743,
+    "riscoPipe": 0.05020597322348094,
+    "alertas": []
+   },
+   {
+    "id": "P19",
+    "meta": 450,
+    "realizado": 529.8,
+    "atingimento": 1.1773333333333333,
+    "vies": -0.00906002265005654,
+    "tendencia": null,
+    "lastroM1": 0.4864476190476191,
+    "riscoPipe": 0.11636273415209034,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P20",
+    "meta": 240,
+    "realizado": 332.7,
+    "atingimento": 1.38625,
+    "vies": 0.18725578599338746,
+    "tendencia": null,
+    "lastroM1": 0.6663210526315789,
+    "riscoPipe": 0.14000700035001748,
+    "alertas": [
+     "RAMPA"
+    ]
+   }
+  ],
+  "conversao": [
+   {
+    "de": "Prospecção",
+    "taxa": 0.552421500798297,
+    "base": 3758
+   },
+   {
+    "de": "Qualificação",
+    "taxa": 0.5447976878612717,
+    "base": 2076
+   },
+   {
+    "de": "Proposta",
+    "taxa": 0.4916003536693192,
+    "base": 1131
+   },
+   {
+    "de": "Negociação",
+    "taxa": 0.4568345323741007,
+    "base": 556
+   }
+  ],
+  "pipelineAberto": [
+   {
+    "etapa": "Prospecção",
+    "qtd": 336,
+    "kwp": 6342.5,
+    "ponderado": 1014.8,
+    "emRisco": 7
+   },
+   {
+    "etapa": "Qualificação",
+    "qtd": 294,
+    "kwp": 4892.4,
+    "ponderado": 1272,
+    "emRisco": 46
+   },
+   {
+    "etapa": "Proposta",
+    "qtd": 224,
+    "kwp": 4197.9,
+    "ponderado": 1763.1,
+    "emRisco": 66
+   },
+   {
+    "etapa": "Negociação",
+    "qtd": 213,
+    "kwp": 3867.7,
+    "ponderado": 2746.1,
+    "emRisco": 125
+   }
+  ],
+  "resumoRiscos": [
+   {
+    "codigo": "SLA",
+    "nome": "Parada acima do prazo da etapa",
+    "qtd": 69,
+    "kwp": 1344.1
+   },
+   {
+    "codigo": "VENCIDA",
+    "nome": "Previsão de fechamento vencida",
+    "qtd": 95,
+    "kwp": 1901.6
+   },
+   {
+    "codigo": "PENDENCIA",
+    "nome": "Pendência em aberto",
+    "qtd": 185,
+    "kwp": 3131
+   }
+  ],
+  "qtdRiscos": 244,
+  "qtdPrioritarias": 88
+ },
+ {
+  "nome": "Parceiro Ingá (P07), 12 meses",
+  "filtros": {
+   "de": "2025-10",
+   "ate": "2026-09",
+   "parceiro": "P07",
+   "etapa": "Todas"
+  },
+  "kpis": {
+   "meta": 2655,
+   "realizado": 2122.7,
+   "atingimento": 0.7995103578154424,
+   "gap": 532.3,
+   "contratos": 136,
+   "vies": 0.25547651575823255,
+   "wape": 0.3309464361426485,
+   "parceirosAtivos": 1
+  },
+  "projecao": {
+   "meses": [
+    "2026-10",
+    "2026-11",
+    "2026-12"
+   ],
+   "meta": 455,
+   "forecast": 370,
+   "forecastM1": 140,
+   "pondM1": 145.3,
+   "pondHorizonte": 187.7,
+   "cobertura": 0.8131868131868132,
+   "lastroM1": 1.037857142857143
+  },
+  "serie": [
+   {
+    "mes": "2025-10",
+    "tipo": "fechado",
+    "meta": 250,
+    "realizado": 228.4,
+    "atingimento": 0.9136,
+    "forecastRegistrado": 260
+   },
+   {
+    "mes": "2025-11",
+    "tipo": "fechado",
+    "meta": 250,
+    "realizado": 143.4,
+    "atingimento": 0.5736,
+    "forecastRegistrado": 290
+   },
+   {
+    "mes": "2025-12",
+    "tipo": "fechado",
+    "meta": 230,
+    "realizado": 318.6,
+    "atingimento": 1.385217391304348,
+    "forecastRegistrado": 245
+   },
+   {
+    "mes": "2026-01",
+    "tipo": "fechado",
+    "meta": 210,
+    "realizado": 212.1,
+    "atingimento": 1.01,
+    "forecastRegistrado": 275
+   },
+   {
+    "mes": "2026-02",
+    "tipo": "fechado",
+    "meta": 215,
+    "realizado": 188.2,
+    "atingimento": 0.8753488372093022,
+    "forecastRegistrado": 285
+   },
+   {
+    "mes": "2026-03",
+    "tipo": "fechado",
+    "meta": 235,
+    "realizado": 231.5,
+    "atingimento": 0.9851063829787234,
+    "forecastRegistrado": 225
+   },
+   {
+    "mes": "2026-04",
+    "tipo": "fechado",
+    "meta": 235,
+    "realizado": 104.2,
+    "atingimento": 0.44340425531914895,
+    "forecastRegistrado": 220
+   },
+   {
+    "mes": "2026-05",
+    "tipo": "fechado",
+    "meta": 220,
+    "realizado": 198.5,
+    "atingimento": 0.9022727272727272,
+    "forecastRegistrado": 225
+   },
+   {
+    "mes": "2026-06",
+    "tipo": "fechado",
+    "meta": 225,
+    "realizado": 178.3,
+    "atingimento": 0.7924444444444445,
+    "forecastRegistrado": 180
+   },
+   {
+    "mes": "2026-07",
+    "tipo": "fechado",
+    "meta": 210,
+    "realizado": 132.4,
+    "atingimento": 0.6304761904761905,
+    "forecastRegistrado": 170
+   },
+   {
+    "mes": "2026-08",
+    "tipo": "fechado",
+    "meta": 195,
+    "realizado": 117.6,
+    "atingimento": 0.6030769230769231,
+    "forecastRegistrado": 155
+   },
+   {
+    "mes": "2026-09",
+    "tipo": "fechado",
+    "meta": 180,
+    "realizado": 69.5,
+    "atingimento": 0.3861111111111111,
+    "forecastRegistrado": 135
+   },
+   {
+    "mes": "2026-10",
+    "tipo": "futuro",
+    "meta": 165,
+    "forecast": 140,
+    "pipelinePonderado": 145.3
+   },
+   {
+    "mes": "2026-11",
+    "tipo": "futuro",
+    "meta": 150,
+    "forecast": 115,
+    "pipelinePonderado": 32.1
+   },
+   {
+    "mes": "2026-12",
+    "tipo": "futuro",
+    "meta": 140,
+    "forecast": 115,
+    "pipelinePonderado": 10.3
+   }
+  ],
+  "parceiros": [
+   {
+    "id": "P07",
+    "meta": 2655,
+    "realizado": 2122.7,
+    "atingimento": 0.7995103578154424,
+    "vies": 0.25547651575823255,
+    "tendencia": -0.3357588357588358,
+    "lastroM1": 1.0380071428571427,
+    "riscoPipe": 0.19976703552708208,
+    "alertas": [
+     "A2",
+     "A3"
+    ]
+   }
+  ],
+  "conversao": [
+   {
+    "de": "Prospecção",
+    "taxa": 0.5851648351648352,
+    "base": 728
+   },
+   {
+    "de": "Qualificação",
+    "taxa": 0.6690140845070423,
+    "base": 426
+   },
+   {
+    "de": "Proposta",
+    "taxa": 0.5789473684210527,
+    "base": 285
+   },
+   {
+    "de": "Negociação",
+    "taxa": 0.6787878787878788,
+    "base": 165
+   }
+  ],
+  "pipelineAberto": [
+   {
+    "etapa": "Prospecção",
+    "qtd": 12,
+    "kwp": 219.3,
+    "ponderado": 35.1,
+    "emRisco": 0
+   },
+   {
+    "etapa": "Qualificação",
+    "qtd": 7,
+    "kwp": 67.7,
+    "ponderado": 17.6,
+    "emRisco": 2
+   },
+   {
+    "etapa": "Proposta",
+    "qtd": 11,
+    "kwp": 92.8,
+    "ponderado": 39,
+    "emRisco": 6
+   },
+   {
+    "etapa": "Negociação",
+    "qtd": 6,
+    "kwp": 135.3,
+    "ponderado": 96.1,
+    "emRisco": 3
+   }
+  ],
+  "resumoRiscos": [
+   {
+    "codigo": "SLA",
+    "nome": "Parada acima do prazo da etapa",
+    "qtd": 1,
+    "kwp": 13.4
+   },
+   {
+    "codigo": "VENCIDA",
+    "nome": "Previsão de fechamento vencida",
+    "qtd": 0,
+    "kwp": 0
+   },
+   {
+    "codigo": "PENDENCIA",
+    "nome": "Pendência em aberto",
+    "qtd": 10,
+    "kwp": 89.5
+   }
+  ],
+  "qtdRiscos": 11,
+  "qtdPrioritarias": 3
+ },
+ {
+  "nome": "Parceiro Oiti (P13), etapa Negociação",
+  "filtros": {
+   "de": "2025-10",
+   "ate": "2026-09",
+   "parceiro": "P13",
+   "etapa": "Negociação"
+  },
+  "kpis": {
+   "meta": 2575,
+   "realizado": 2510.6,
+   "atingimento": 0.9749902912621359,
+   "gap": 64.4,
+   "contratos": 110,
+   "vies": 0.09137258025969872,
+   "wape": 0.44507289094240415,
+   "parceirosAtivos": 1
+  },
+  "projecao": {
+   "meses": [
+    "2026-10",
+    "2026-11",
+    "2026-12"
+   ],
+   "meta": 680,
+   "forecast": 805,
+   "forecastM1": 270,
+   "pondM1": 212.7,
+   "pondHorizonte": 342.8,
+   "cobertura": 1.1838235294117647,
+   "lastroM1": 0.7877777777777777
+  },
+  "serie": [
+   {
+    "mes": "2025-10",
+    "tipo": "fechado",
+    "meta": 245,
+    "realizado": 111.3,
+    "atingimento": 0.4542857142857143,
+    "forecastRegistrado": 260
+   },
+   {
+    "mes": "2025-11",
+    "tipo": "fechado",
+    "meta": 225,
+    "realizado": 305.7,
+    "atingimento": 1.3586666666666667,
+    "forecastRegistrado": 220
+   },
+   {
+    "mes": "2025-12",
+    "tipo": "fechado",
+    "meta": 215,
+    "realizado": 204.2,
+    "atingimento": 0.949767441860465,
+    "forecastRegistrado": 230
+   },
+   {
+    "mes": "2026-01",
+    "tipo": "fechado",
+    "meta": 200,
+    "realizado": 399.6,
+    "atingimento": 1.9980000000000002,
+    "forecastRegistrado": 230
+   },
+   {
+    "mes": "2026-02",
+    "tipo": "fechado",
+    "meta": 210,
+    "realizado": 148.9,
+    "atingimento": 0.709047619047619,
+    "forecastRegistrado": 190
+   },
+   {
+    "mes": "2026-03",
+    "tipo": "fechado",
+    "meta": 235,
+    "realizado": 58.2,
+    "atingimento": 0.24765957446808512,
+    "forecastRegistrado": 220
+   },
+   {
+    "mes": "2026-04",
+    "tipo": "fechado",
+    "meta": 215,
+    "realizado": 64.9,
+    "atingimento": 0.3018604651162791,
+    "forecastRegistrado": 210
+   },
+   {
+    "mes": "2026-05",
+    "tipo": "fechado",
+    "meta": 215,
+    "realizado": 325.5,
+    "atingimento": 1.513953488372093,
+    "forecastRegistrado": 225
+   },
+   {
+    "mes": "2026-06",
+    "tipo": "fechado",
+    "meta": 215,
+    "realizado": 147.9,
+    "atingimento": 0.6879069767441861,
+    "forecastRegistrado": 240
+   },
+   {
+    "mes": "2026-07",
+    "tipo": "fechado",
+    "meta": 215,
+    "realizado": 220.4,
+    "atingimento": 1.0251162790697674,
+    "forecastRegistrado": 235
+   },
+   {
+    "mes": "2026-08",
+    "tipo": "fechado",
+    "meta": 200,
+    "realizado": 175.8,
+    "atingimento": 0.879,
+    "forecastRegistrado": 220
+   },
+   {
+    "mes": "2026-09",
+    "tipo": "fechado",
+    "meta": 185,
+    "realizado": 348.2,
+    "atingimento": 1.882162162162162,
+    "forecastRegistrado": 260
+   },
+   {
+    "mes": "2026-10",
+    "tipo": "futuro",
+    "meta": 240,
+    "forecast": 270,
+    "pipelinePonderado": 212.7
+   },
+   {
+    "mes": "2026-11",
+    "tipo": "futuro",
+    "meta": 230,
+    "forecast": 260,
+    "pipelinePonderado": 119.1
+   },
+   {
+    "mes": "2026-12",
+    "tipo": "futuro",
+    "meta": 210,
+    "forecast": 275,
+    "pipelinePonderado": 11
+   }
+  ],
+  "parceiros": [
+   {
+    "id": "P13",
+    "meta": 2575,
+    "realizado": 2510.6,
+    "atingimento": 0.9749902912621361,
+    "vies": 0.09137258025969872,
+    "tendencia": 0.3828720044584808,
+    "lastroM1": 0.7878148148148147,
+    "riscoPipe": 0.5007178178337853,
+    "alertas": [
+     "A5"
+    ]
+   }
+  ],
+  "conversao": [
+   {
+    "de": "Prospecção",
+    "taxa": 0.6095661846496107,
+    "base": 899
+   },
+   {
+    "de": "Qualificação",
+    "taxa": 0.677007299270073,
+    "base": 548
+   },
+   {
+    "de": "Proposta",
+    "taxa": 0.5795148247978437,
+    "base": 371
+   },
+   {
+    "de": "Negociação",
+    "taxa": 0.413953488372093,
+    "base": 215
+   }
+  ],
+  "pipelineAberto": [
+   {
+    "etapa": "Prospecção",
+    "qtd": 0,
+    "kwp": 0,
+    "ponderado": 0,
+    "emRisco": 0
+   },
+   {
+    "etapa": "Qualificação",
+    "qtd": 0,
+    "kwp": 0,
+    "ponderado": 0,
+    "emRisco": 0
+   },
+   {
+    "etapa": "Proposta",
+    "qtd": 0,
+    "kwp": 0,
+    "ponderado": 0,
+    "emRisco": 0
+   },
+   {
+    "etapa": "Negociação",
+    "qtd": 48,
+    "kwp": 867.5,
+    "ponderado": 615.9,
+    "emRisco": 47
+   }
+  ],
+  "resumoRiscos": [
+   {
+    "codigo": "SLA",
+    "nome": "Parada acima do prazo da etapa",
+    "qtd": 30,
+    "kwp": 642.1
+   },
+   {
+    "codigo": "VENCIDA",
+    "nome": "Previsão de fechamento vencida",
+    "qtd": 39,
+    "kwp": 797.1
+   },
+   {
+    "codigo": "PENDENCIA",
+    "nome": "Pendência em aberto",
+    "qtd": 44,
+    "kwp": 806.4
+   }
+  ],
+  "qtdRiscos": 47,
+  "qtdPrioritarias": 1
+ },
+ {
+  "nome": "Parceiro Ypê (P20), credenciado no período",
+  "filtros": {
+   "de": "2025-01",
+   "ate": "2026-09",
+   "parceiro": "P20",
+   "etapa": "Todas"
+  },
+  "kpis": {
+   "meta": 315,
+   "realizado": 405.6,
+   "atingimento": 1.2876190476190477,
+   "gap": -90.6,
+   "contratos": 27,
+   "vies": 0.20808678500986186,
+   "wape": 0.23520710059171598,
+   "parceirosAtivos": 1
+  },
+  "projecao": {
+   "meses": [
+    "2026-10",
+    "2026-11",
+    "2026-12"
+   ],
+   "meta": 265,
+   "forecast": 565,
+   "forecastM1": 190,
+   "pondM1": 126.6,
+   "pondHorizonte": 177.6,
+   "cobertura": 2.1320754716981134,
+   "lastroM1": 0.6663157894736842
+  },
+  "serie": [
+   {
+    "mes": "2025-01",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-02",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-03",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-04",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-05",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-06",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-07",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-08",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-09",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-10",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-11",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2025-12",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2026-01",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2026-02",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2026-03",
+    "tipo": "fechado",
+    "meta": 0,
+    "realizado": 0,
+    "atingimento": null,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2026-04",
+    "tipo": "fechado",
+    "meta": 10,
+    "realizado": 0,
+    "atingimento": 0,
+    "forecastRegistrado": null
+   },
+   {
+    "mes": "2026-05",
+    "tipo": "fechado",
+    "meta": 10,
+    "realizado": 7.5,
+    "atingimento": 0.75,
+    "forecastRegistrado": 30
+   },
+   {
+    "mes": "2026-06",
+    "tipo": "fechado",
+    "meta": 55,
+    "realizado": 65.4,
+    "atingimento": 1.1890909090909092,
+    "forecastRegistrado": 65
+   },
+   {
+    "mes": "2026-07",
+    "tipo": "fechado",
+    "meta": 85,
+    "realizado": 48.6,
+    "atingimento": 0.571764705882353,
+    "forecastRegistrado": 85
+   },
+   {
+    "mes": "2026-08",
+    "tipo": "fechado",
+    "meta": 80,
+    "realizado": 140.1,
+    "atingimento": 1.75125,
+    "forecastRegistrado": 135
+   },
+   {
+    "mes": "2026-09",
+    "tipo": "fechado",
+    "meta": 75,
+    "realizado": 144,
+    "atingimento": 1.92,
+    "forecastRegistrado": 175
+   },
+   {
+    "mes": "2026-10",
+    "tipo": "futuro",
+    "meta": 90,
+    "forecast": 190,
+    "pipelinePonderado": 126.6
+   },
+   {
+    "mes": "2026-11",
+    "tipo": "futuro",
+    "meta": 90,
+    "forecast": 175,
+    "pipelinePonderado": 49.2
+   },
+   {
+    "mes": "2026-12",
+    "tipo": "futuro",
+    "meta": 85,
+    "forecast": 200,
+    "pipelinePonderado": 1.8
+   }
+  ],
+  "parceiros": [
+   {
+    "id": "P20",
+    "meta": 315,
+    "realizado": 405.6,
+    "atingimento": 1.2876190476190477,
+    "vies": 0.20808678500986186,
+    "tendencia": 3.563786008230452,
+    "lastroM1": 0.6663210526315789,
+    "riscoPipe": 0.14000700035001748,
+    "alertas": [
+     "RAMPA"
+    ]
+   }
+  ],
+  "conversao": [
+   {
+    "de": "Prospecção",
+    "taxa": 0.6209677419354839,
+    "base": 248
+   },
+   {
+    "de": "Qualificação",
+    "taxa": 0.6428571428571429,
+    "base": 154
+   },
+   {
+    "de": "Proposta",
+    "taxa": 0.5353535353535354,
+    "base": 99
+   },
+   {
+    "de": "Negociação",
+    "taxa": 0.5094339622641509,
+    "base": 53
+   }
+  ],
+  "pipelineAberto": [
+   {
+    "etapa": "Prospecção",
+    "qtd": 10,
+    "kwp": 186.7,
+    "ponderado": 29.9,
+    "emRisco": 0
+   },
+   {
+    "etapa": "Qualificação",
+    "qtd": 15,
+    "kwp": 175.4,
+    "ponderado": 45.6,
+    "emRisco": 3
+   },
+   {
+    "etapa": "Proposta",
+    "qtd": 6,
+    "kwp": 90.5,
+    "ponderado": 38,
+    "emRisco": 1
+   },
+   {
+    "etapa": "Negociação",
+    "qtd": 9,
+    "kwp": 118.8,
+    "ponderado": 84.3,
+    "emRisco": 4
+   }
+  ],
+  "resumoRiscos": [
+   {
+    "codigo": "SLA",
+    "nome": "Parada acima do prazo da etapa",
+    "qtd": 1,
+    "kwp": 7
+   },
+   {
+    "codigo": "VENCIDA",
+    "nome": "Previsão de fechamento vencida",
+    "qtd": 2,
+    "kwp": 28.5
+   },
+   {
+    "codigo": "PENDENCIA",
+    "nome": "Pendência em aberto",
+    "qtd": 6,
+    "kwp": 51.5
+   }
+  ],
+  "qtdRiscos": 8,
+  "qtdPrioritarias": 5
+ },
+ {
+  "nome": "Etapa Proposta, 2025",
+  "filtros": {
+   "de": "2025-01",
+   "ate": "2025-12",
+   "parceiro": "Todos",
+   "etapa": "Proposta"
+  },
+  "kpis": {
+   "meta": 34390,
+   "realizado": 32099.8,
+   "atingimento": 0.9334050596103518,
+   "gap": 2290.2,
+   "contratos": 1833,
+   "vies": 0.0956454557349266,
+   "wape": 0.38906161409105333,
+   "parceirosAtivos": 19
+  },
+  "projecao": {
+   "meses": [
+    "2026-10",
+    "2026-11",
+    "2026-12"
+   ],
+   "meta": 10700,
+   "forecast": 11660,
+   "forecastM1": 3815,
+   "pondM1": 3448.7,
+   "pondHorizonte": 5292.7,
+   "cobertura": 1.0897196261682243,
+   "lastroM1": 0.9039842726081257
+  },
+  "serie": [
+   {
+    "mes": "2025-01",
+    "tipo": "fechado",
+    "meta": 2800,
+    "realizado": 2785.7,
+    "atingimento": 0.994892857142857,
+    "forecastRegistrado": 2715
+   },
+   {
+    "mes": "2025-02",
+    "tipo": "fechado",
+    "meta": 2730,
+    "realizado": 1845.5,
+    "atingimento": 0.676007326007326,
+    "forecastRegistrado": 2525
+   },
+   {
+    "mes": "2025-03",
+    "tipo": "fechado",
+    "meta": 2840,
+    "realizado": 2116.3,
+    "atingimento": 0.7451760563380282,
+    "forecastRegistrado": 2315
+   },
+   {
+    "mes": "2025-04",
+    "tipo": "fechado",
+    "meta": 2715,
+    "realizado": 2107.6,
+    "atingimento": 0.776279926335175,
+    "forecastRegistrado": 2620
+   },
+   {
+    "mes": "2025-05",
+    "tipo": "fechado",
+    "meta": 2680,
+    "realizado": 2739,
+    "atingimento": 1.0220149253731343,
+    "forecastRegistrado": 2765
+   },
+   {
+    "mes": "2025-06",
+    "tipo": "fechado",
+    "meta": 2680,
+    "realizado": 2708.2,
+    "atingimento": 1.0105223880597014,
+    "forecastRegistrado": 2940
+   },
+   {
+    "mes": "2025-07",
+    "tipo": "fechado",
+    "meta": 2810,
+    "realizado": 3090.1,
+    "atingimento": 1.099679715302491,
+    "forecastRegistrado": 2900
+   },
+   {
+    "mes": "2025-08",
+    "tipo": "fechado",
+    "meta": 2880,
+    "realizado": 2817.9,
+    "atingimento": 0.9784375000000001,
+    "forecastRegistrado": 3020
+   },
+   {
+    "mes": "2025-09",
+    "tipo": "fechado",
+    "meta": 2975,
+    "realizado": 2746.7,
+    "atingimento": 0.9232605042016806,
+    "forecastRegistrado": 3250
+   },
+   {
+    "mes": "2025-10",
+    "tipo": "fechado",
+    "meta": 3085,
+    "realizado": 2838.1,
+    "atingimento": 0.919967585089141,
+    "forecastRegistrado": 3320
+   },
+   {
+    "mes": "2025-11",
+    "tipo": "fechado",
+    "meta": 3145,
+    "realizado": 3385.9,
+    "atingimento": 1.0765977742448332,
+    "forecastRegistrado": 3365
+   },
+   {
+    "mes": "2025-12",
+    "tipo": "fechado",
+    "meta": 3050,
+    "realizado": 2918.8,
+    "atingimento": 0.9569836065573771,
+    "forecastRegistrado": 3435
+   },
+   {
+    "mes": "2026-10",
+    "tipo": "futuro",
+    "meta": 3740,
+    "forecast": 3815,
+    "pipelinePonderado": 3448.7
+   },
+   {
+    "mes": "2026-11",
+    "tipo": "futuro",
+    "meta": 3625,
+    "forecast": 3975,
+    "pipelinePonderado": 1593.3
+   },
+   {
+    "mes": "2026-12",
+    "tipo": "futuro",
+    "meta": 3335,
+    "forecast": 3870,
+    "pipelinePonderado": 250.7
+   }
+  ],
+  "parceiros": [
+   {
+    "id": "P01",
+    "meta": 2565,
+    "realizado": 2476.1,
+    "atingimento": 0.9653411306042886,
+    "vies": -0.02871451072250731,
+    "tendencia": -0.4163342198581562,
+    "lastroM1": 0.8629632653061226,
+    "riscoPipe": 0.16727657152150932,
+    "alertas": [
+     "A2"
+    ]
+   },
+   {
+    "id": "P02",
+    "meta": 2565,
+    "realizado": 2138.7,
+    "atingimento": 0.8338011695906432,
+    "vies": 0.07541964744938523,
+    "tendencia": -0.4766033786814171,
+    "lastroM1": 1.0025545454545455,
+    "riscoPipe": 0.24249553025312887,
+    "alertas": [
+     "A2"
+    ]
+   },
+   {
+    "id": "P03",
+    "meta": 4275,
+    "realizado": 4237.3,
+    "atingimento": 0.9911812865497076,
+    "vies": 0.04901706275222425,
+    "tendencia": 0.002231376587710221,
+    "lastroM1": 0.944391919191919,
+    "riscoPipe": 0.13825536873647418,
+    "alertas": []
+   },
+   {
+    "id": "P04",
+    "meta": 1235,
+    "realizado": 1317.8,
+    "atingimento": 1.0670445344129553,
+    "vies": 0.009257853999089426,
+    "tendencia": 0.054666984960611176,
+    "lastroM1": 0.5246,
+    "riscoPipe": 0.04159090909090909,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P05",
+    "meta": 2725,
+    "realizado": 2533.7,
+    "atingimento": 0.9297981651376148,
+    "vies": -0.1889331807238427,
+    "tendencia": 0.0643573381950775,
+    "lastroM1": 1.72251052631579,
+    "riscoPipe": 0.2319863887707358,
+    "alertas": []
+   },
+   {
+    "id": "P06",
+    "meta": 1435,
+    "realizado": 1613.4,
+    "atingimento": 1.1243205574912891,
+    "vies": -0.19734721705714633,
+    "tendencia": 0.6401601830663612,
+    "lastroM1": 1.1056869565217393,
+    "riscoPipe": 0.36188151763922793,
+    "alertas": []
+   },
+   {
+    "id": "P07",
+    "meta": 3135,
+    "realizado": 2783.6,
+    "atingimento": 0.8879106858054227,
+    "vies": 0.04900129328926573,
+    "tendencia": -0.06929091399298981,
+    "lastroM1": 1.0380071428571427,
+    "riscoPipe": 0.19976703552708208,
+    "alertas": []
+   },
+   {
+    "id": "P08",
+    "meta": 2125,
+    "realizado": 1897.7,
+    "atingimento": 0.8930352941176469,
+    "vies": 0.13295041365863952,
+    "tendencia": -0.05648351648351657,
+    "lastroM1": 1.0322333333333331,
+    "riscoPipe": 0.16699945543655834,
+    "alertas": []
+   },
+   {
+    "id": "P09",
+    "meta": 2210,
+    "realizado": 1912.1,
+    "atingimento": 0.865203619909502,
+    "vies": 0.10088384498718718,
+    "tendencia": 1.0396349413298567,
+    "lastroM1": 0.9631999999999998,
+    "riscoPipe": 0.21714681867200733,
+    "alertas": []
+   },
+   {
+    "id": "P10",
+    "meta": 1340,
+    "realizado": 1083.3,
+    "atingimento": 0.8084328358208955,
+    "vies": 0.07080217852857015,
+    "tendencia": 0.022966867469879304,
+    "lastroM1": 0.8087913043478261,
+    "riscoPipe": 0.24621278077659758,
+    "alertas": []
+   },
+   {
+    "id": "P11",
+    "meta": 1710,
+    "realizado": 1501.2,
+    "atingimento": 0.8778947368421053,
+    "vies": 0.7219557687183586,
+    "tendencia": -0.34350188048474717,
+    "lastroM1": 0.6776000000000001,
+    "riscoPipe": 0.19336810730253357,
+    "alertas": [
+     "A2",
+     "A3"
+    ]
+   },
+   {
+    "id": "P12",
+    "meta": 770,
+    "realizado": 586.2,
+    "atingimento": 0.7612987012987014,
+    "vies": 0.6291368133742749,
+    "tendencia": -0.4996934396076027,
+    "lastroM1": 0.7608999999999999,
+    "riscoPipe": 0.08232207281075761,
+    "alertas": [
+     "A1",
+     "A2",
+     "A3"
+    ]
+   },
+   {
+    "id": "P13",
+    "meta": 2830,
+    "realizado": 2401.3,
+    "atingimento": 0.8485159010600706,
+    "vies": 0.06400699621038616,
+    "tendencia": -0.0440135426285011,
+    "lastroM1": 0.7878148148148147,
+    "riscoPipe": 0.5007178178337853,
+    "alertas": [
+     "A5"
+    ]
+   },
+   {
+    "id": "P14",
+    "meta": 1005,
+    "realizado": 1118.3,
+    "atingimento": 1.1127363184079602,
+    "vies": -0.038719484932486774,
+    "tendencia": -0.21430332922318118,
+    "lastroM1": 0.46868695652173914,
+    "riscoPipe": 0.047036883547451315,
+    "alertas": [
+     "A4"
+    ]
+   },
+   {
+    "id": "P15",
+    "meta": 2245,
+    "realizado": 2228.1,
+    "atingimento": 0.9924721603563476,
+    "vies": 0.07715093577487528,
+    "tendencia": 1.0262688089773015,
+    "lastroM1": 0.8614595744680851,
+    "riscoPipe": 0.31285344579699026,
+    "alertas": []
+   },
+   {
+    "id": "P16",
+    "meta": 1210,
+    "realizado": 993.6,
+    "atingimento": 0.8211570247933884,
+    "vies": 1.0229468599033817,
+    "tendencia": 0.8638900815800774,
+    "lastroM1": 0.6308380952380952,
+    "riscoPipe": 0.15037507212925563,
+    "alertas": [
+     "A3"
+    ]
+   },
+   {
+    "id": "P17",
+    "meta": 790,
+    "realizado": 1164.4,
+    "atingimento": 1.4739240506329114,
+    "vies": -0.016660941257299975,
+    "tendencia": 0.49642280175398135,
+    "lastroM1": 1.1509409090909088,
+    "riscoPipe": 0.33189762279466584,
+    "alertas": []
+   },
+   {
+    "id": "P18",
+    "meta": 210,
+    "realizado": 113,
+    "atingimento": 0.5380952380952381,
+    "vies": 1.4778761061946903,
+    "tendencia": null,
+    "lastroM1": 1.2357483870967743,
+    "riscoPipe": 0.05020597322348094,
+    "alertas": [
+     "RAMPA"
+    ]
+   },
+   {
+    "id": "P19",
+    "meta": 10,
+    "realizado": 0,
+    "atingimento": 0,
+    "vies": null,
+    "tendencia": null,
+    "lastroM1": 0.4864476190476191,
+    "riscoPipe": 0.11636273415209034,
+    "alertas": [
+     "RAMPA",
+     "A4"
+    ]
+   }
+  ],
+  "conversao": [
+   {
+    "de": "Prospecção",
+    "taxa": 0.6209038530788621,
+    "base": 11108
+   },
+   {
+    "de": "Qualificação",
+    "taxa": 0.6286791358561693,
+    "base": 6897
+   },
+   {
+    "de": "Proposta",
+    "taxa": 0.602859778597786,
+    "base": 4336
+   },
+   {
+    "de": "Negociação",
+    "taxa": 0.7157612853863811,
+    "base": 2614
+   }
+  ],
+  "pipelineAberto": [
+   {
+    "etapa": "Prospecção",
+    "qtd": 0,
+    "kwp": 0,
+    "ponderado": 0,
+    "emRisco": 0
+   },
+   {
+    "etapa": "Qualificação",
+    "qtd": 0,
+    "kwp": 0,
+    "ponderado": 0,
+    "emRisco": 0
+   },
+   {
+    "etapa": "Proposta",
+    "qtd": 218,
+    "kwp": 4107.4,
+    "ponderado": 1725.1,
+    "emRisco": 65
+   },
+   {
+    "etapa": "Negociação",
+    "qtd": 0,
+    "kwp": 0,
+    "ponderado": 0,
+    "emRisco": 0
+   }
+  ],
+  "resumoRiscos": [
+   {
+    "codigo": "SLA",
+    "nome": "Parada acima do prazo da etapa",
+    "qtd": 13,
+    "kwp": 182.4
+   },
+   {
+    "codigo": "VENCIDA",
+    "nome": "Previsão de fechamento vencida",
+    "qtd": 9,
+    "kwp": 107.5
+   },
+   {
+    "codigo": "PENDENCIA",
+    "nome": "Pendência em aberto",
+    "qtd": 53,
+    "kwp": 823.9
+   }
+  ],
+  "qtdRiscos": 65,
+  "qtdPrioritarias": 0
+ }
+]
